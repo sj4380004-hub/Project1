@@ -1,0 +1,401 @@
+*html 
+
+    title اسم الصفحة 
+     body تفصيل 
+     head 
+         (<script> لكتابة جافا سكربت داخل الهيد
+         <meta property="og:image" content="image.jpg">
+         )
+     body(
+        <amg src="">
+         اضافة صورة 
+         <a href="pages/about.html">من نحن</a>
+         <a href="pages/contact.html">اتصل بنا</a>
+         <a href="https://google.com" target = "_blank">اتصل بنا</a> تقوم بفتح صحفة في صفحة ثانية وليس نفس الصفحة
+         ربط أكثر من ملف html مع بعض 
+         
+         <ul>
+           <li>dfvdfv<li>
+         <ul> 
+         عناصر غير مرتبة 
+         <ol>
+           <li>dfvdfv<li>
+         <ol> 
+          عناصر مرتبة 
+         <!-- reversed كتابة ترتيب بالعكس 
+         start  من عندها ببلش الترتيب 
+         
+          !-->
+
+         )
+ <table>
+   <thead> الاشياء الرئيسية في الجدول
+   <tr> table row
+   <td> للعمود
+   <tfoot>
+   <tbody>
+   <caption> عن شو الجدول مثل شهر كذا و..
+   cplspan = "n" دمج خلايا مع بعض
+   <span>dddd</span> ccs بتقدر تلفونها لحال في 
+   <br> بنزل سطر 
+   <hr>بتعمل خط 
+
+<Div> 
+   مفيدة في CSS بحيث ما يكون في فراغ في اللون 
+كل شي بتكتبه بتحطه في <Div>
+
+<header> بتكتب فيه الاشياء الرئيسية الي في سطر أول شيء مثل عن الاكاديمية وغير ذلك </haader>
+<nav>بتكتب اشياء على الجنب مثل روابط وغيره</nav>
+<footer>أخر الصفحة شو بتكتب تواصل وغيره
+مثال 
+<div class = "header">
+   <h2>dscsdcvvfd</h2>
+   <ul>
+    <li>Home</li>
+   <ul>
+</div>
+
+OR 
+<header>
+     <h2>dscsdcvvfd</h2>
+   <ul>
+    <li>Home</li>
+   <ul>
+</header>
+
+<audio src="Link"  controls  muted>
+<source src = "">
+ملف صوتي 
+</audio>
+
+<video src="Link"  width =   height =  >
+
+<source src = "">
+<track src = "">ملفات للترجمة
+</video>
+
+<from>
+<div>
+   <label>Name </label>
+   <input type = "taxt" required   placeholder = "Username">
+</div>
+<div>
+   <label>Password</label>
+   <input type = "Password"  required  placeholder = "Password">   
+</div>
+   <input type = "submit">
+</from>
+
+عمل أكثر من شغلة وانت تختار بينهم
+<div>
+  <input id ="win" type = "radio"  value = "Windows">
+  <label for = "win" >Windows</label>
+ 
+</div>
+<div>
+  <input type = "reset"  value = "Reset">
+  <input type = "submit"  value = "save">
+</div>
+
+OR
+
+<select name = "book" id = "book">
+ <optgroup label = "JJJ">
+  <option value = "">Book 1</option>
+  <option value = "">Book 2</option>
+  <option value = "">Book 3</option>
+ </optgroup>
+
+ <optgroup label = "Jehad">
+  <option value = "">Book 1</option>
+  <option value = "">Book 2</option>
+  <option value = "">Book 3</option>
+ </optgroup>
+</select>
+
+<button>fdfv</button>
+
+
+CSS
+
+p{
+coler : ;
+font-size :20px  حجم الخط 
+
+ 
+}
+
+.my-p{ للكلاس 
+}
+#id ()
+
+.div{
+    background-coler :red  ;
+    background-image : url("الرابط")
+    background-reprat : تكرار الصورة
+    جعل الصورةأقصى اليسار
+    background-position : left-top جعل الصورة في الاعلى
+    background-position : left-bottom جعل الصورة في الاسفل
+    background-position : left-center جعل الصورة في النص
+    جعل الصورة أقصى اليمين
+    background-position : right-top 
+    background-position : left-bottom 
+    background-position : left-center
+    جعل الصورة في النصف  
+    background-position : center-top 
+    background-position : center-bottom 
+    background-position : center-center
+    او بستخدم النسبة المئوية
+
+ تغيير حجم الصورة 
+ background-size :  ,  ;
+
+ padding : 10px 10px  ;  هوامش على جنب النص تكون 
+ outline-left :  ; أطار 
+ border-  : ; أطار 
+
+
+
+
+ 
+
+}
+مهم جداً جداً
+{
+1]
+شريط أفقي في أعلى الصفحة
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #0249ad;
+}
+
+لماذا؟
+
+display: flex يجعل الأزرار بجانب بعضها.
+justify-content: center يضعها في المنتصف.
+gap يضيف مسافة بينها.
+padding يعطي الشريط مساحة داخلية.
+2]
+أزرار بارزة داخل الشريط
+.navbar a {
+    padding: 10px 20px;
+    color: white;
+    background-color: #0066cc;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+لماذا؟
+يجعل كل رابط يبدو مثل زر، ويزيل الخط الموجود تحت الرابط.
+
+3]
+تغيير الزر عند مرور الماوس
+.navbar a:hover {
+    background-color: white;
+    color: #0249ad;
+}
+
+لماذا؟
+عندما يمر الماوس فوق الزر تتغير ألوانه.
+
+4]إضافة ظل للأزرار
+.navbar a {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+لماذا؟
+يجعل الزر يبدو بارزًا عن الصفحة.
+
+5]شريط علوي ثابت أثناء النزول
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+لماذا؟
+يبقى الشريط في أعلى الشاشة حتى عندما تنزل في الصفحة.
+
+6]عل الشريط فوق جميع العناصر
+.navbar {
+    z-index: 1000;
+}
+
+ويفضل:
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+}
+
+لماذا؟
+z-index يجعل الشريط يظهر فوق العناصر الأخرى.
+
+7]شريط أفقي + أزرار صفحات
+<nav class="navbar">
+    <a href="index.html">الصفحة الرئيسية</a>
+    <a href="members.html">الأعضاء</a>
+    <a href="about.html">من نحن</a>
+    <a href="contact.html">اتصل بنا</a>
+</nav>
+
+ملاحظة مهمة للمسابقة:
+href هو الذي يحدد الصفحة التي سينتقل إليها المستخدم.
+
+8]
+ زر له تأثير عند الضغط
+button:active {
+    transform: scale(0.95);
+}
+
+لماذا؟
+يصغر الزر قليلًا أثناء الضغط عليه، فيعطي إحساسًا بأنه زر حقيقي.
+
+9] زر بحواف دائرية
+button {
+    border-radius: 20px;
+}
+
+كلما زادت القيمة أصبحت الحواف أكثر استدارة.
+
+10]إطار بارز حول صندوق كامل
+.box {
+    border: 2px solid #0249ad;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(2, 73, 173, 0.4);
+}
+
+لماذا؟
+
+border → الإطار.
+border-radius → تدوير الحواف.
+padding → مسافة داخل الصندوق.
+box-shadow → يجعل الصندوق بارزًا.
+
+11]وضع الصندوق في منتصف الصفحة
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+justify-content: center;
+align-items: center;
+
+تستخدم غالبًا لتوسيط العنصر أفقيًا وعموديًا مع display: flex.
+12] جعل العناصر تحت بعضها
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+لماذا؟
+بدل أن تكون العناصر بجانب بعضها تصبح فوق بعضها.
+
+13] جعل العناصر بجانب بعضها
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+row هو الاتجاه الافتراضي لـ Flexbox.
+
+14] توزيع الأزرار بالتساوي
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+النتيجة:
+
+زر                    زر                    زر
+15] مسافة متساوية بين الأزرار
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+لماذا؟
+يضع مسافات متساوية حول وبين العناصر.
+
+16] تغيير شكل المؤشر فوق الزر
+button {
+    cursor: pointer;
+}
+
+لماذا؟
+يجعل مؤشر الماوس يظهر كيد عند المرور على الزر.
+
+17] إزالة إطار الـ input عند التركيز
+input:focus {
+    outline: none;
+}
+
+لماذا؟
+يزيل الإطار الافتراضي الذي يظهر عند الضغط على حقل الإدخال.
+
+ويمكنك استبداله:
+
+input:focus {
+    outline: none;
+    border: 2px solid #0249ad;
+}
+18] تصميم Input جميل
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+19] تغيير لون الـ Input عند الضغط
+input:focus {
+    border-color: #0249ad;
+}
+20] إنشاء بطاقة Card
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+
+}
+
+{
+justify-content: center → توسيط أفقي.
+align-items: center → توسيط عمودي.
+display: flex → ضروري حتى تعمل خصائص Flexbox.
+border → الإطار.
+box-shadow → يجعل الإطار بارزًا.
+.form-box → الإطار الخارجي الذي يجمع كل العناصر.
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
